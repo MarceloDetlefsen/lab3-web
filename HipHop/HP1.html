@@ -1,60 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live.Love.A$AP</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live.Love.A$AP</title>
 </head>
+
 <body>
-    <header>
-        <h1>Live.Love.A$AP</h1>
-        <h4>De: A$AP Rocky</h4>
-        <time datetime="2011-10-31">31 de Octubre de 2011</time>
-        <hr>
-    </header>
+  <header>
+    <h1>Live.Love.A$AP</h1>
+    <h4>De: A$AP Rocky</h4>
+    <time datetime="2011-10-31">31 de Octubre de 2011</time>
+  </header>
 
-    <nav aria-label="breadcrumb">
-        <ul>
-            <li><a href="../index.html">Volver al índice</a></li>
-            <li><a href="../Rock/R1.html">Rock</a></li>
-            <li><a href="../EDM/EDM1.html">EDM</a></li>
-            <li><a href="../Metal/M1.html">Metal</a></li>
-            <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
-        </ul>
-        <hr>
-    </nav>
+	<hr>
 
-    <figure>
-        <img src="../Images/a_ap-rocky-livelovea_ap-Cover-Art.jpg" alt="Live.Love.A$AP Cover Art.">
-        <figcaption>Portada del album Live.Love.A$AP.</figcaption>
-    </figure>
+  <nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="../index.html">Volver al índice</a></li>
+      <li><a href="../Rock/R1.html">Rock</a></li>
+      <li><a href="../EDM/EDM1.html">EDM</a></li>
+      <li><a href="../Metal/M1.html">Metal</a></li>
+      <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
+    </ul>
+  </nav>
 
-    <main>
-        <article>
-            <h2>Resumen del Album</h2>
-            <p>...</p>
-            <hr>
-        </article>
-        <summary>
-            <h2>¿Por qué me gusta tanto?</h2>
-            <p>...</p>
-            <hr>
-        </summary>
-        <section>
-            <h2>Mis Canciones Favoritas</h2>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <hr>
-        </section>
-    </main>
+	<hr>
 
-    <footer>
-        <progress value="33" max="100"></progress>
-        <button><a href="HP2.html">Siguente album...</a></button>
-        <h4>Marcelo Detlefsen - 24554</h4>
-    </footer>
+  <figure>
+    <img src="../Images/a_ap-rocky-livelovea_ap-Cover-Art.jpg" alt="Live.Love.A$AP Cover Art.">
+    <figcaption>Portada del album Live.Love.A$AP.</figcaption>
+  </figure>
+
+	<hr>
+
+  <main>
+
+  <article>
+    <h2>Resumen del Álbum</h2>
+    <p>
+			Live.Love.A$AP es el mixtape debut de A$AP Rocky lanzado en 2011.
+			Este proyecto estableció a Rocky como una fuerza importante en el hip hop,
+			mezclando producción atmosférica con flows innovadores. El sonido es oscuro,
+			psicodélico y adelantado a su tiempo.
+    </p>
+  </article>
+
+  <details>
+    <summary>Dato curioso</summary>
+    <p>
+			Este mixtape fue lanzado de forma gratuita y catapultó a A$AP Rocky a la
+			fama, llevándolo a firmar un contrato millonario con Sony y Polo Grounds.
+    </p>
+  </details>
+
+  <hr>
+
+  <aside>
+    <h2>¿Por qué me gusta tanto?</h2>
+    <p>
+			Bueno aquí fue donde empezó todo, este no es el primer album que escuché en mi vida, pero si
+			fue de los primeros que me hizo cambiar de opinión. Cuando empecé a escuchar música, el género
+			que me adentró fue el HipHop, y sigue siendo hasta día de hoy el género que más consumo; sin embargo,
+			estos primeros años eran bastante superficiales y sentía que el rap era un poco predecible. Y es acá
+			donde entra este mixtape, en este album Rocky me hizo descbrir que el rap podía tener mucha más riqueza
+			sonora y no simples beats con baterias predecibles. <br> Este album para mi ofrece una de las ambientaciones
+			más ricas en cuanto al <em>Cloud Rap</em> se refiere, y fue gracias a este album que he tendido a ser un oyente
+			que se fija mas en la instrumentación y en la forma de producción de los albumes. Pero si, en definitiva sin haber
+			escuchado este album no creo que hubiera llegado a indagar tanto en este género que tanto me gusta.
+    </p>
+  </aside>
+
+  <hr>
+
+  <section>
+    <h2>Mis Canciones Favoritas</h2>
+    <ul>
+			<li>Palace</li>
+			<li>Peso</li>
+			<li>Purple Swag</li>
+			<li>Demons</li>
+			<li>Sandman</li>
+    </ul>
+  </section>
+
+	<hr>
+
+  <section>
+    <h2>Más información</h2>
+    <button onclick="document.getElementById('modal').showModal()">
+			Abrir información extra
+    </button>
+
+    <dialog id="modal">
+    <form method="dialog">
+      <p>
+				Live.Love.A$AP es considerado uno de los mejores mixtapes de la década
+				de 2010 y redefinió el sonido del hip hop moderno con su producción
+				experimental.
+      </p>
+      <button>Cerrar</button>
+    </form>
+    </dialog>
+  </section>
+
+  </main>
+
+	<hr>
+
+  <footer>
+  <progress value="33" max="100"></progress>
+
+  <a href="HP2.html">
+    <button>Siguiente álbum...</button>
+  </a>
+
+  <h4>Marcelo Detlefsen - 24554</h4>
+  </footer>
 </body>
 </html>

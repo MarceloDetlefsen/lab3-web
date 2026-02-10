@@ -1,61 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piñata</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piñata</title>
 </head>
+
 <body>
-    <header>
-        <h1>Piñata</h1>
-        <h4>De: Freddie Gibbs & Madlib</h4>
-        <time datetime="2014-03-18">18 de Marzo de 2014</time>
-        <hr>
-    </header>
+  <header>
+    <h1>Piñata</h1>
+    <h4>De: Freddie Gibbs & Madlib</h4>
+    <time datetime="2014-03-18">18 de Marzo de 2014</time>
+  </header>
 
-    <nav aria-label="breadcrumb">
-        <ul>
-            <li><a href="../index.html">Volver al índice</a></li>
-            <li><a href="../Rock/R1.html">Rock</a></li>
-            <li><a href="../EDM/EDM1.html">EDM</a></li>
-            <li><a href="../Metal/M1.html">Metal</a></li>
-            <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
-        </ul>
-        <hr>
-    </nav>
+	<hr>
 
-    <figure>
-        <img src="../Images/freddie-gibbs-and-madlib-pinata-Cover-Art.jpg" alt="Piñata Cover Art.">
-        <figcaption>Portada del album Piñata.</figcaption>
-    </figure>
+  <nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="../index.html">Volver al índice</a></li>
+      <li><a href="../Rock/R1.html">Rock</a></li>
+      <li><a href="../EDM/EDM1.html">EDM</a></li>
+      <li><a href="../Metal/M1.html">Metal</a></li>
+      <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
+    </ul>
+  </nav>
 
-    <main>
-        <article>
-            <h2>Resumen del Album</h2>
-            <p>...</p>
-            <hr>
-        </article>
-        <summary>
-            <h2>¿Por qué me gusta tanto?</h2>
-            <p>...</p>
-            <hr>
-        </summary>
-        <section>
-            <h2>Mis Canciones Favoritas</h2>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <hr>
-        </section>
-    </main>
+	<hr>
 
-    <footer>
-        <button><a href="HP1.html">Regresar album...</a></button>
-        <progress value="66" max="100"></progress>
-        <button><a href="HP3.html">Siguente album...</a></button>
-        <h4>Marcelo Detlefsen - 24554</h4>
-    </footer>
+  <figure>
+    <img src="../Images/freddie-gibbs-and-madlib-pinata-Cover-Art.jpg" alt="Piñata Cover Art.">
+    <figcaption>Portada del album Piñata.</figcaption>
+  </figure>
+
+	<hr>
+
+  <main>
+
+  <article>
+    <h2>Resumen del Álbum</h2>
+    <p>
+			Piñata es una colaboración entre el rapero Freddie Gibbs y el productor
+			Madlib, lanzada en 2014. El álbum combina las habilidades líricas crudas
+			de Gibbs con la producción soul y jazz experimental de Madlib, creando
+			una obra maestra del hip hop underground.
+    </p>
+  </article>
+
+  <details>
+    <summary>Dato curioso</summary>
+    <p>
+			La química entre Gibbs y Madlib fue tan fuerte que lanzaron una secuela
+			llamada "Bandana" en 2019, continuando su colaboración aclamada por la crítica.
+    </p>
+  </details>
+
+  <hr>
+
+  <aside>
+    <h2>¿Por qué me gusta tanto?</h2>
+    <p>
+			Piñata es un album muy especial, para empezar fue el album con el que comencé a escuchar
+			a uno de mis raperos favortios, Freddie Gibbs. Este fue otro de esos albumes que descubrí por
+			recomendaciones de la crítica, y a Freddie no lo conocía pero si había oido de Madlib (el productor
+			de este album) gracias a su trabajo con MF Doom, y fue por eso que le decidi dar una oportunidad.
+			Nuevamente la ambientación que se crea en este album es extremadamente buena, pero Freddie Gibbs
+			fue el que me elevó la barra en cuanto a narrativa se refiere, es un rapero que tiene una habilidad
+			impresionante para rapear sobre las instrumentales contando historias y de una forma tremendamente escrita.
+			<br> Sin lugar a duda mi canción favorita del album es <strong>High</strong>, es una canción increible
+			pero también fue la que me hizo descubirr a otro de mis raperos favoritos, <strong>Danny Brown</strong>,
+			me llamó mucho la atención su voz tan particular y la su flow que hace parecer como si estuviera genuinamente
+			loco. Piñata es un album muy especial, también fue el que me hizo acostumbrame a los albumes largos, ya que este
+			es de los primero que escuché que superan la barrera de la hora en duración, y también contiene canciones de 10 minutos.
+    </p>
+  </aside>
+
+  <hr>
+
+  <section>
+    <h2>Mis Canciones Favoritas</h2>
+    <ul>
+			<li>High</li>
+			<li>Bomb</li>
+			<li>Shitsville</li>
+			<li>Thuggin'</li>
+			<li>Shame</li>
+    </ul>
+  </section>
+
+	<hr>
+
+  <section>
+    <h2>Más información</h2>
+    <button onclick="document.getElementById('modal').showModal()">
+			Abrir información extra
+    </button>
+
+    <dialog id="modal">
+    <form method="dialog">
+      <p>
+				Piñata es ampliamente considerado como uno de los mejores álbumes de
+				hip hop de la década de 2010, destacando por su producción innovadora
+				y lirismo auténtico.
+      </p>
+      <button>Cerrar</button>
+    </form>
+    </dialog>
+  </section>
+
+  </main>
+
+	<hr>
+
+  <footer>
+  <a href="HP1.html">
+    <button>Anterior álbum...</button>
+  </a>
+
+  <progress value="66" max="100"></progress>
+
+  <a href="HP3.html">
+    <button>Siguiente álbum...</button>
+  </a>
+
+  <h4>Marcelo Detlefsen - 24554</h4>
+  </footer>
 </body>
 </html>
