@@ -1,60 +1,122 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Souvlaki</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Souvlaki</title>
 </head>
+
 <body>
-    <header>
-        <h1>Souvlaki</h1>
-        <h4>De: Slowdive</h4>
-        <time datetime="1994-08-23">23 de Agosto de 1994</time>
-        <hr>
-    </header>
+  <header>
+    <h1>Souvlaki</h1>
+    <h4>De: Slowdive</h4>
+    <time datetime="1994-08-23">23 de Agosto de 1994</time>
+  </header>
 
-    <nav aria-label="breadcrumb">
-        <ul>
-            <li><a href="../index.html">Volver al índice</a></li>
-            <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
-            <li><a href="../EDM/EDM1.html">EDM</a></li>
-            <li><a href="../Metal/M1.html">Metal</a></li>
-            <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
-        </ul>
-        <hr>
-    </nav>
+	<hr>
 
-    <figure>
-        <img src="../Images/slowdive-souvlaki-Cover-Art.jpg" alt="Souvlaki Cover Art.">
-        <figcaption>Portada del album Souvlaki.</figcaption>
-    </figure>
+  <nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="../index.html">Volver al índice</a></li>
+      <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
+      <li><a href="../EDM/EDM1.html">EDM</a></li>
+      <li><a href="../Metal/M1.html">Metal</a></li>
+      <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
+    </ul>
+  </nav>
 
-    <main>
-        <article>
-            <h2>Resumen del Album</h2>
-            <p>...</p>
-            <hr>
-        </article>
-        <summary>
-            <h2>¿Por qué me gusta tanto?</h2>
-            <p>...</p>
-            <hr>
-        </summary>
-        <section>
-            <h2>Mis Canciones Favoritas</h2>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <hr>
-        </section>
-    </main>
+	<hr>
 
-    <footer>
-        <button><a href="R2.html">Regresar album...</a></button>
-        <progress value="100" max="100"></progress>
-        <h4>Marcelo Detlefsen - 24554</h4>
-    </footer>
+  <figure>
+    <img src="../Images/slowdive-souvlaki-Cover-Art.jpg" alt="Souvlaki Cover Art.">
+    <figcaption>Portada del album Souvlaki.</figcaption>
+  </figure>
+
+	<hr>
+
+  <main>
+
+  <article>
+    <h2>Resumen del Álbum</h2>
+    <p>
+			Souvlaki es el segundo álbum de estudio de Slowdive, lanzado en 1993.
+			Es una obra maestra del shoegaze que combina guitarras etéreas con
+			atmósferas soñadoras. El álbum crea paisajes sonoros envolventes que
+			transportan al oyente a un estado de introspección profunda.
+    </p>
+  </article>
+
+  <details>
+    <summary>Dato curioso</summary>
+    <p>
+			El título del álbum proviene de un plato griego, y la banda eligió el
+			nombre mientras comían en un restaurante durante las sesiones de grabación.
+    </p>
+  </details>
+
+  <hr>
+
+  <aside>
+    <h2>¿Por qué me gusta tanto?</h2>
+    <p>
+			Bueno y terminamos esta sección de la historia con el album que me hizo descubrir uno e mis subgéneros
+			favoritos, el shoegaze. Para cuando oí este album ya había escuchado unos cuantos albumes del género, pero 
+			no terminaba de entender del todo que es lo que signifficaba en su totalidad, pero al terminar de oir esta
+			joya es cuando ya no tuve duda. El shoegaze a partir de ese momento se convirtió en uno de mis géneros favoritos,
+			ya que si se ejecuta de la manera correcta (dada su complejidad) es capaz de crear una atmósfera tan distinta y hermsosa que es capaz
+			de desconectarte por momento del lugar de donde estás. <br> Souvlaki tiene una de mis canciones favoritas de siempre, siendo
+			<strong>Alison</strong>, considero que es una de las mejores primeras canciones de la historia, y cumple perfectamente su función de
+			engancharte desde el primer momento.  Todo el album es extremadamente prolijo y considero que no tiene fallas, y en general 
+			Slowdive es una de las bandas de mayor calidad que existen a pesar de variar un poco su sonido y de tener periodos de tiempo muy largos
+			entre cada album.
+			
+    </p>
+  </aside>
+
+  <hr>
+
+  <section>
+    <h2>Mis Canciones Favoritas</h2>
+    <ul>
+			<li>Alison</li>
+			<li>Machine Gun</li>
+			<li>Sing</li>
+			<li>When the Sun Hits</li>
+			<li>Souvlaki Space Station</li>
+    </ul>
+  </section>
+
+	<hr>
+
+  <section>
+    <h2>Más información</h2>
+    <button onclick="document.getElementById('modal').showModal()">
+    Abrir información extra
+    </button>
+
+    <dialog id="modal">
+    <form method="dialog">
+      <p>
+				Souvlaki es considerado uno de los álbumes definitorios del shoegaze
+				y ha ganado reconocimiento como una obra de culto a lo largo de los años.
+      </p>
+      <button>Cerrar</button>
+    </form>
+    </dialog>
+
+    <hr>
+  </section>
+
+  </main>
+
+  <footer>
+  <a href="R2.html">
+    <button>Anterior álbum...</button>
+  </a>
+
+  <progress value="100" max="100"></progress>
+
+  <h4>Marcelo Detlefsen - 24554</h4>
+  </footer>
 </body>
 </html>

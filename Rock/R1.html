@@ -1,60 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>In Rainbows</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>In Rainbows</title>
 </head>
+
 <body>
-    <header>
-        <h1>In Rainbows</h1>
-        <h4>De: Radiohead</h4>
-        <time datetime="2007-10-10">10 de Octubre de 2007</time>
-        <hr>
-    </header>
 
-    <nav aria-label="breadcrumb">
-        <ul>
-            <li><a href="../index.html">Volver al índice</a></li>
-            <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
-            <li><a href="../EDM/EDM1.html">EDM</a></li>
-            <li><a href="../Metal/M1.html">Metal</a></li>
-            <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
-        </ul>
-        <hr>
-    </nav>
+  <header>
+    <h1>In Rainbows</h1>
+    <h4>De: Radiohead</h4>
+    <time datetime="2007-10-10">10 de Octubre de 2007</time>
+    <hr>
+  </header>
 
-    <figure>
-        <img src="../Images/radiohead-in-rainbows-Cover-Art.jpg" alt="In Rainbows Album Art.">
-        <figcaption>Portada del album In Rainbows.</figcaption>
-    </figure>
+  <nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="../index.html">Volver al índice</a></li>
+      <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
+      <li><a href="../EDM/EDM1.html">EDM</a></li>
+      <li><a href="../Metal/M1.html">Metal</a></li>
+      <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
+    </ul>
+    <hr>
+  </nav>
 
-    <main>
-        <article>
-            <h2>Resumen del Album</h2>
-            <p>...</p>
-            <hr>
-        </article>
-        <summary>
-            <h2>¿Por qué me gusta tanto?</h2>
-            <p>...</p>
-            <hr>
-        </summary>
-        <section>
-            <h2>Mis Canciones Favoritas</h2>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <hr>
-        </section>
-    </main>
+  <figure>
+    <img src="../Images/radiohead-in-rainbows-Cover-Art.jpg" alt="Portada del álbum In Rainbows de Radiohead">
+    <figcaption>Portada del álbum <em>In Rainbows</em>.</figcaption>
+  </figure>
 
-    <footer>
-        <progress value="33" max="100"></progress>
-        <button><a href="R2.html">Siguente album...</a></button>
-        <h4>Marcelo Detlefsen - 24554</h4>
-    </footer>
+	<hr>
+
+  <main>
+
+    <article>
+      <h2>Resumen del Álbum</h2>
+      <p>
+        In Rainbows es el séptimo álbum de estudio de Radiohead y representa una etapa
+        más íntima y emocional de la banda. Musicalmente mezcla rock alternativo,
+        electrónica suave y arreglos experimentales, creando una atmósfera cálida
+        y reflexiva.
+      </p>
+    </article>
+
+    <details>
+      <summary>Dato curioso</summary>
+      <p>
+        Este álbum fue lanzado bajo el modelo “paga lo que quieras”, marcando
+        un antes y un después en la industria musical.
+      </p>
+    </details>
+
+    <hr>
+
+    <aside>
+      <h2>¿Por qué me gusta tanto?</h2>
+      <p>
+				Soy muy malo recordadndo en que fecha exacta fue la primera vez que escuché albumes en general,
+				pero este album es muy especial porque fue de los primeros albumes de Rock que escuché básicamente.
+				De pequeño no me gustaba mucho el rock porque lo que oía mi papá me parecía que sonaba muy <strong>viejo</strong>.
+				Pero me enteré de la existencia de este album gracias a videos de albumes críticamente aclamados y fue por lo que
+				decidí darle una oportunidad, y vaya que lo hice. <strong>Nude</strong> fue la canción que lo cambió todo, el principio
+				del album me estaba pareciendo grandioso, pero gracias a esa canción es que caí enamorado completamente de cualquier forma
+				de rock, ya que fue la primera vez que una canción me hizo sentir tanto. <br> Y bueno esa es básciamente la historia de este
+				album, le debo mucho de mi amor a la música a este album, y desde esa primera escucha se convirtió en uno de mis favoritos
+				de siempre, y cada vez que lo escucho me sigue pareciendo una obra maestra.
+      </p>
+    </aside>
+
+    <hr>
+
+    <section>
+      <h2>Mis Canciones Favoritas</h2>
+      <ul>
+        <li>Nude</li>
+        <li>Weird Fishes / Arpeggi</li>
+				<li>All I Need</li>
+        <li>Reckoner</li>
+				<li>Jigsaw Falling Into Place</li>
+      </ul>
+    </section>
+
+		<hr>
+
+    <section>
+      <h2>Más información</h2>
+      <button onclick="document.getElementById('modal').showModal()">
+        Abrir información extra
+      </button>
+
+      <dialog id="modal">
+        <form method="dialog">
+          <p>
+            In Rainbows es considerado uno de los mejores álbumes del siglo XXI
+            por su innovación, producción y enfoque artístico.
+          </p>
+          <button>Cerrar</button>
+        </form>
+      </dialog>
+
+      <hr>
+    </section>
+
+  </main>
+
+  <footer>
+    <progress value="33" max="100"></progress>
+
+    <a href="R2.html">
+      <button>Siguiente álbum...</button>
+    </a>
+
+    <h4>Marcelo Detlefsen - 24554</h4>
+  </footer>
+
 </body>
 </html>

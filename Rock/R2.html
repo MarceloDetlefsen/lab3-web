@@ -1,61 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grace</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grace</title>
 </head>
+
 <body>
-    <header>
-        <h1>Grace</h1>
-        <h4>De: Jeff Buckley</h4>
-        <time datetime="1994-08-23">23 de Agosto de 1994</time>
-        <hr>
-    </header>
+  
+  <header>
+    <h1>Grace</h1>
+    <h4>De: Jeff Buckley</h4>
+    <time datetime="1994-08-23">23 de Agosto de 1994</time>
+    <hr>
+  </header>
 
-    <nav aria-label="breadcrumb">
-        <ul>
-            <li><a href="../index.html">Volver al índice</a></li>
-            <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
-            <li><a href="../EDM/EDM1.html">EDM</a></li>
-            <li><a href="../Metal/M1.html">Metal</a></li>
-            <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
-        </ul>
-        <hr>
-    </nav>
+  <nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="../index.html">Volver al índice</a></li>
+      <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
+      <li><a href="../EDM/EDM1.html">EDM</a></li>
+      <li><a href="../Metal/M1.html">Metal</a></li>
+      <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
+    </ul>
+    <hr>
+  </nav>
 
-    <figure>
-        <img src="../Images/jeff-buckley-grace-Cover-Art.jpg" alt="Grace Cover Art.">
-        <figcaption>Portada del album Grace.</figcaption>
-    </figure>
+  <figure>
+    <img src="../Images/jeff-buckley-grace-Cover-Art.jpg" alt="Grace Cover Art.">
+    <figcaption>Portada del album Grace.</figcaption>
+  </figure>
 
-    <main>
-        <article>
-            <h2>Resumen del Album</h2>
-            <p>...</p>
-            <hr>
-        </article>
-        <summary>
-            <h2>¿Por qué me gusta tanto?</h2>
-            <p>...</p>
-            <hr>
-        </summary>
-        <section>
-            <h2>Mis Canciones Favoritas</h2>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <hr>
-        </section>
-    </main>
+  <hr>
 
-    <footer>
-        <button><a href="R1.html">Regresar album...</a></button>
-        <progress value="66" max="100"></progress>
-        <button><a href="R3.html">Siguente album...</a></button>
-        <h4>Marcelo Detlefsen - 24554</h4>
-    </footer>
+  <main>
+
+  <article>
+    <h2>Resumen del Álbum</h2>
+    <p>
+      Grace es el único álbum de estudio de Jeff Buckley, lanzado en 1994.
+      Es una obra maestra que combina rock alternativo, folk y soul con una
+      intensidad emocional única. La voz de Buckley es etérea y poderosa,
+      capaz de transmitir vulnerabilidad y fuerza al mismo tiempo.
+    </p>
+  </article>
+
+  <details>
+    <summary>Dato curioso</summary>
+    <p>
+      Jeff Buckley falleció trágicamente en 1997 antes de completar su segundo
+      álbum, convirtiendo a Grace en su único legado de estudio completo.
+    </p>
+  </details>
+
+  <hr>
+
+  <aside>
+    <h2>¿Por qué me gusta tanto?</h2>
+    <p>
+      Yo no soy una persona que se emocione tan fácil, es muy dificil hacerme llorar, pero Grace
+      lo hace cada maldita vez que lo escucho. Es un album tan triste pero tan hermoso a la vez,
+      sumado a que no puedo evitar pensar que hubiera pasado si Jeff Buckley hubiera seguido vivo,
+      las obras maestras que pudo haber creado... Al menos estuvo estuvo vivo el tiempo suficiente
+      como para regalarlnos esta joya de rock alternativo. <br> No se, este es un album tan perfecto, 
+      que si no te toca en alguna partecita de tu alma, estás muerto probablemente. Curiosamente las
+      2 canciones que menos me gustan son lás populares, siendo estás <em>Hallelujah</em> y <em>Corpus Christi Carol</em>,
+      ya que considero que no encajan muy bien con el resto del album. Pero por lo demás, este es sin duda
+      uno de mis favoritos, y uno que puedo escuchar a diario sin importar mi estado de ánimo, es simplemente <strong> hermoso</strong>.
+
+      <!-- Este álbum representa la expresión artística más pura que he escuchado.
+      Cada canción es un viaje emocional, y la interpretación de Buckley de
+      "Hallelujah" es definitiva. Su talento vocal y compositivo es inigualable. -->
+    </p>
+  </aside>
+
+  <hr>
+
+  <section>
+    <h2>Mis Canciones Favoritas</h2>
+    <ul>
+      <li>Mojo Pin</li>
+      <li>Grace</li>
+      <li>Last Goodbye</li>
+      <li>Lover, You Should've Come Over</li>
+      <li>So Real</li>
+    </ul>
+  </section>
+
+	<hr>
+
+  <section>
+    <h2>Más información</h2>
+    <button onclick="document.getElementById('modal').showModal()">
+      Abrir información extra
+    </button>
+
+    <dialog id="modal">
+    <form method="dialog">
+      <p>
+        Grace es considerado uno de los álbumes más influyentes de los años 90
+        y ha inspirado a innumerables artistas con su mezcla de géneros y
+        profundidad emocional.
+      </p>
+      <button>Cerrar</button>
+    </form>
+    </dialog>
+  </section>
+
+  <hr>
+
+  </main>
+
+  <footer>
+  <a href="R1.html">
+    <button>Anterior álbum...</button>
+  </a>
+
+  <progress value="66" max="100"></progress>
+
+  <a href="R3.html">
+    <button>Siguiente álbum...</button>
+  </a>
+
+  <h4>Marcelo Detlefsen - 24554</h4>
+  </footer>
 </body>
 </html>
