@@ -1,60 +1,131 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vespertine</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vespertine</title>
 </head>
+
 <body>
-    <header>
-        <h1>Vespertine</h1>
-        <h4>De: Björk</h4>
-        <time datetime="2001-08-27">27 de Agosto de 2001</time>
-        <hr>
-    </header>
 
-    <nav aria-label="breadcrumb">
-        <ul>
-            <li><a href="../index.html">Volver al índice</a></li>
-            <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
-            <li><a href="../Rock/R1.html">Rock</a></li>
-            <li><a href="../EDM/EDM1.html">EDM</a></li>
-            <li><a href="../Metal/M1.html">Metal</a></li>
-        </ul>
-        <hr>
-    </nav>
+  <header>
+    <h1>Vespertine</h1>
+    <h4>De: Björk</h4>
+    <time datetime="2001-08-27">27 de Agosto de 2001</time>
+  </header>
 
-    <figure>
-        <img src="../Images/bjork-vespertine-Cover-Art.jpg" alt="Vespertine Cover Art.">
-        <figcaption>Portada del album Vespertine.</figcaption>
-    </figure>
-    
-    <main>
-        <article>
-            <h2>Resumen del Album</h2>
-            <p>...</p>
-            <hr>
-        </article>
-        <summary>
-            <h2>¿Por qué me gusta tanto?</h2>
-            <p>...</p>
-            <hr>
-        </summary>
-        <section>
-            <h2>Mis Canciones Favoritas</h2>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <hr>
-        </section>
-    </main>
+	<hr>
 
-    <footer>
-        <progress value="33" max="100"></progress>
-        <button><a href="AP2.html">Siguente album...</a></button>
-        <h4>Marcelo Detlefsen - 24554</h4>
-    </footer>
+  <nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="../index.html">Volver al índice</a></li>
+      <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
+      <li><a href="../Rock/R1.html">Rock</a></li>
+      <li><a href="../EDM/EDM1.html">EDM</a></li>
+      <li><a href="../Metal/M1.html">Metal</a></li>
+    </ul>
+  </nav>
+
+	<hr>
+
+  <figure>
+    <img src="../Images/bjork-vespertine-Cover-Art.jpg" alt="Vespertine Cover Art.">
+    <figcaption>Portada del album Vespertine.</figcaption>
+  </figure>
+
+	<hr>
+
+  <main>
+
+  <article>
+    <h2>Resumen del Álbum</h2>
+    <p>
+			Vespertine es el cuarto álbum de estudio de Björk, lanzado en 2001.
+			Es una obra íntima y experimental que incorpora beats electrónicos
+			minimalistas, samples de sonidos cotidianos y arreglos de cámara.
+			El álbum explora temas de amor doméstico y tranquilidad invernal.
+    </p>
+  </article>
+
+  <details>
+    <summary>Dato curioso</summary>
+    <p>
+			Björk utilizó sonidos de pasos en la nieve, cristales rompiéndose y
+			barajas siendo mezcladas como elementos percusivos, grabados en su casa
+			durante el invierno islandés.
+    </p>
+  </details>
+
+  <hr>
+
+  <aside>
+    <h2>¿Por qué me gusta tanto?</h2>
+    <p> 
+			Bueno, con <em>Vespertine</em> me pasó algo bastante especial, porque fue mi puerta de 
+			entrada a un pop mucho más artístico y delicado de lo que estaba acostumbrado a escuchar. 
+			Hasta ese momento, el pop que conocía era más directo, más estructurado, pero acá sentí que 
+			estaba entrando a algo muchísimo más íntimo y detallista. Este álbum es simplemente hermoso, no 
+			encuentro otra palabra que lo describa mejor. <br> La voz de Björk es algo que me atrapó desde 
+			el primer momento. Es increíblemente versátil, puede sonar frágil, dulce, casi susurrada, y al 
+			mismo tiempo llena de intención y carácter. En este disco en particular siento que su voz funciona 
+			casi como un instrumento más, flotando entre los pequeños glitches, las texturas electrónicas y 
+			esos arreglos tan minimalistas que parecen microscópicos. <strong>Hidden Place</strong> es 
+			directamente un temazo. Fue la canción que me hizo entender completamente la magia del álbum. 
+			Esa producción tan contenida pero tan profunda, y la forma en la que la melodía se va desarrollando 
+			sin necesidad de explotar nunca, me parece brillante. <br> Este disco me enseñó que el pop no tiene 
+			que ser grandilocuente para ser impactante. Puede ser silencioso, íntimo y aún así dejarte 
+			completamente marcado. Desde entonces empecé a buscar mucho más ese tipo de propuestas, 
+			donde lo artístico y lo emocional van mucho más allá de lo convencional.
+    </p>
+  </aside>
+
+  <hr>
+
+  <section>
+    <h2>Mis Canciones Favoritas</h2>
+    <ul>
+			<li>Hidden Place</li>
+			<li>It's Not up to You</li>
+			<li>Undo</li>
+			<li>Heirloom</li>
+			<li>Unison</li>
+    </ul>
+  </section>
+
+	<hr>
+
+  <section>
+    <h2>Más información</h2>
+    <button onclick="document.getElementById('modal').showModal()">
+    Abrir información extra
+    </button>
+
+    <dialog id="modal">
+    <form method="dialog">
+      <p>
+				Vespertine es ampliamente considerado como uno de los mejores trabajos
+				de Björk y una obra maestra del art pop experimental, redefiniendo
+				los límites de la música electrónica íntima.
+      </p>
+      <button>Cerrar</button>
+    </form>
+    </dialog>
+  </section>
+
+  </main>
+
+	<hr>
+
+  <footer>
+  <progress value="33" max="100"></progress>
+
+  <a href="AP2.html">
+    <button>Siguiente álbum...</button>
+  </a>
+
+  <h4>Marcelo Detlefsen - 24554</h4>
+  </footer>
+
 </body>
+
 </html>

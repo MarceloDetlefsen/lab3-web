@@ -1,61 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emperor Tomato Ketchup</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emperor Tomato Ketchup</title>
 </head>
+
 <body>
-    <header>
-        <h1>Emperor Tomato Ketchup</h1>
-        <h4>De: Stereolab</h4>
-        <time datetime="1996-03-11">11 de Marzo de 1996</time>
-        <hr>
-    </header>
 
-    <nav aria-label="breadcrumb">
-        <ul>
-            <li><a href="../index.html">Volver al índice</a></li>
-            <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
-            <li><a href="../Rock/R1.html">Rock</a></li>
-            <li><a href="../EDM/EDM1.html">EDM</a></li>
-            <li><a href="../Metal/M1.html">Metal</a></li>
-        </ul>
-        <hr>
-    </nav>
+  <header>
+    <h1>Emperor Tomato Ketchup</h1>
+    <h4>De: Stereolab</h4>
+    <time datetime="1996-03-11">11 de Marzo de 1996</time>
+  </header>
 
-    <figure>
-        <img src="../Images/stereolab-emperor-tomato-ketchup-Cover-Art.jpg" alt="Emperor Tomato Ketchup Cover Art.">
-        <figcaption>Portada del album Emperor Tomato Ketchup.</figcaption>
-    </figure>
+	<hr>
 
-    <main>
-        <article>
-            <h2>Resumen del Album</h2>
-            <p>...</p>
-            <hr>
-        </article>
-        <summary>
-            <h2>¿Por qué me gusta tanto?</h2>
-            <p>...</p>
-            <hr>
-        </summary>
-        <section>
-            <h2>Mis Canciones Favoritas</h2>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <hr>
-        </section>
-    </main>
+  <nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="../index.html">Volver al índice</a></li>
+      <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
+      <li><a href="../Rock/R1.html">Rock</a></li>
+      <li><a href="../EDM/EDM1.html">EDM</a></li>
+      <li><a href="../Metal/M1.html">Metal</a></li>
+    </ul>
+  </nav>
 
-    <footer>
-        <button><a href="AP1.html">Regresar album...</a></button>
-        <progress value="66" max="100"></progress>
-        <button><a href="AP3.html">Siguente album...</a></button>
-        <h4>Marcelo Detlefsen - 24554</h4>
-    </footer>
+	<hr>
+
+  <figure>
+    <img src="../Images/stereolab-emperor-tomato-ketchup-Cover-Art.jpg" alt="Emperor Tomato Ketchup Cover Art.">
+    <figcaption>Portada del album Emperor Tomato Ketchup.</figcaption>
+  </figure>
+
+	<hr>
+
+  <main>
+
+  <article>
+    <h2>Resumen del Álbum</h2>
+    <p>
+			Emperor Tomato Ketchup es el cuarto álbum de estudio de Stereolab,
+			lanzado en 1996. La banda perfecciona su sonido distintivo que fusiona
+			krautrock, lounge, bossa nova y música electrónica experimental. El resultado
+			es hipnótico, retro-futurista y completamente único.
+    </p>
+  </article>
+
+  <details>
+    <summary>Dato curioso</summary>
+    <p>
+			El título del álbum proviene de una película experimental japonesa de 1971
+			del mismo nombre, reflejando el interés de la banda por el cine de vanguardia
+			y la cultura pop alternativa.
+    </p>
+  </details>
+
+  <hr>
+
+  <aside>
+    <h2>¿Por qué me gusta tanto?</h2>
+    <p> 
+			Con <em>Emperor Tomato Ketchup</em> de Stereolab fue una experiencia distinta pero igual de 
+			reveladora. Primero que nada, es una banda tremenda, con un sonido súper particular que mezcla 
+			tantas cosas que cuesta encasillarlos en un solo género. Pero lo que más me marcó fue cómo este 
+			álbum me llevó a apreciar nuevos idiomas dentro de la música. <br> Escuchar canciones en 
+			francés con tanta naturalidad me hizo darme cuenta de que el idioma no es una barrera cuando 
+			la música está tan bien construida. Hay algo hipnótico en cómo combinan el krautrock, el pop 
+			experimental y esas líneas repetitivas que te van envolviendo sin que te des cuenta. 
+			<strong>Slow Fast Hazel</strong> es un BANGEEER absoluto. Tiene una energía increíble, 
+			es pegadiza pero mantiene esa esencia sofisticada que caracteriza al álbum entero. Me 
+			encanta cómo logran sonar retro y futuristas al mismo tiempo, como si estuvieran fuera 
+			del tiempo. <br> Este disco fue clave para ampliar todavía más mi oído, para entender 
+			que el pop puede ser intelectual, repetitivo de forma intencional, y aun así 
+			extremadamente disfrutable.
+    </p>
+  </aside>
+
+  <hr>
+
+  <section>
+    <h2>Mis Canciones Favoritas</h2>
+    <ul>
+			<li>Metronomic Underground</li>
+			<li>Cybele's Reverie</li>
+			<li>The Noise of Carpet</li>
+			<li>Tomorrow is Already Here</li>
+			<li>Slow Fast Hazel</li>
+    </ul>
+  </section>
+
+	<hr>
+
+  <section>
+    <h2>Más información</h2>
+    <button onclick="document.getElementById('modal').showModal()">
+			Abrir información extra
+    </button>
+
+    <dialog id="modal">
+    <form method="dialog">
+      <p>
+				Emperor Tomato Ketchup es considerado el trabajo definitivo de Stereolab,
+				una obra maestra del post-rock experimental que ha influenciado a
+				innumerables bandas indie y electrónicas.
+      </p>
+      <button>Cerrar</button>
+    </form>
+    </dialog>
+  </section>
+
+	<hr>
+
+  </main>
+
+  <footer>
+  <a href="AP1.html">
+    <button>Anterior álbum...</button>
+  </a>
+
+  <progress value="66" max="100"></progress>
+
+  <a href="AP3.html">
+    <button>Siguiente álbum...</button>
+  </a>
+
+  <h4>Marcelo Detlefsen - 24554</h4>
+  </footer>
+
 </body>
+
 </html>

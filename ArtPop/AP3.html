@@ -1,60 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titanic Rising</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Titanic Rising</title>
 </head>
+
 <body>
-    <header>
-        <h1>Titanic Rising</h1>
-        <h4>De: Weyes Blood</h4>
-        <time datetime="2019-04-05">5 de Abril de 2019</time>
-        <hr>
-    </header>
 
-    <nav aria-label="breadcrumb">
-        <ul>
-            <li><a href="../index.html">Volver al índice</a></li>
-            <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
-            <li><a href="../Rock/R1.html">Rock</a></li>
-            <li><a href="../EDM/EDM1.html">EDM</a></li>
-            <li><a href="../Metal/M1.html">Metal</a></li>
-        </ul>
-        <hr>
-    </nav>
+  <header>
+    <h1>Titanic Rising</h1>
+    <h4>De: Weyes Blood</h4>
+    <time datetime="2019-04-05">5 de Abril de 2019</time>
+  </header>
 
-    <figure>
-        <img src="../Images/weyes-blood-titanic-rising-Cover-Art.jpg" alt="Titanic Rising Cover Art.">
-        <figcaption>Portada del album Titanic Rising.</figcaption>
-    </figure>
+	<hr>
 
-    <main>
-        <article>
-            <h2>Resumen del Album</h2>
-            <p>...</p>
-            <hr>
-        </article>
-        <summary>
-            <h2>¿Por qué me gusta tanto?</h2>
-            <p>...</p>
-            <hr>
-        </summary>
-        <section>
-            <h2>Mis Canciones Favoritas</h2>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <hr>
-        </section>
-    </main>
+  <nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="../index.html">Volver al índice</a></li>
+      <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
+      <li><a href="../Rock/R1.html">Rock</a></li>
+      <li><a href="../EDM/EDM1.html">EDM</a></li>
+      <li><a href="../Metal/M1.html">Metal</a></li>
+    </ul>
+  </nav>
 
-    <footer>
-        <button><a href="AP2.html">Regresar album...</a></button>
-        <progress value="100" max="100"></progress>
-        <h4>Marcelo Detlefsen - 24554</h4>
-    </footer>
+	<hr>
+
+  <figure>
+    <img src="../Images/weyes-blood-titanic-rising-Cover-Art.jpg" alt="Titanic Rising Cover Art.">
+    <figcaption>Portada del album Titanic Rising.</figcaption>
+  </figure>
+
+	<hr>
+
+  <main>
+
+  <article>
+    <h2>Resumen del Álbum</h2>
+    <p>
+			Titanic Rising es el cuarto álbum de estudio de Weyes Blood (Natalie Mering),
+			lanzado en 2019. El álbum combina pop barroco, folk psicodélico y arreglos
+			orquestales lujosos para crear una obra cinematográfica que explora temas
+			de amor, pérdida y apocalipsis climático.
+    </p>
+  </article>
+
+  <details>
+    <summary>Dato curioso</summary>
+    <p>
+			El álbum fue inspirado por el colapso ambiental y la ansiedad moderna,
+			usando la metáfora del Titanic para representar la civilización actual
+			navegando hacia el desastre.
+    </p>
+  </details>
+
+  <hr>
+
+  <aside>
+    <h2>¿Por qué me gusta tanto?</h2>
+    <p> 
+			Y bueno, si hablamos de la culminación del <em>art pop</em> en los 2010, para mí es sin duda 
+			<em>Titanic Rising</em> de Weyes Blood. Este álbum me parece una obra completísima, una especie 
+			de resumen perfecto de todo lo que el pop artístico puede lograr cuando se hace con sensibilidad 
+			y visión clara. <br> Es un disco profundamente melancólico, pero no de una forma exagerada, sino 
+			más bien reflexiva. Hay una sensación constante de nostalgia y de cuestionamiento del mundo moderno, 
+			y todo eso está acompañado por una instrumental simplemente hermosa, con arreglos orquestales 
+			que se sienten gigantes pero nunca sobrecargados. Cada canción parece estar pensada para quedarse 
+			contigo después de que termina. Hay mensajes muy claros sobre el aislamiento, sobre el amor, sobre 
+			la desconexión en la era contemporánea, pero todo está envuelto en melodías tan elegantes que nunca 
+			se siente pesado. <br> Este álbum me confirmó que el art pop no solo puede ser experimental o conceptual, 
+			sino también profundamente humano. Es de esos discos que cuanto más lo escucho, más detalles encuentro, 
+			y más me convenzo de que es uno de los grandes trabajos de su década.
+    </p>
+  </aside>
+
+  <hr>
+
+  <section>
+    <h2>Mis Canciones Favoritas</h2>
+    <ul>
+			<li>A Lot's Gonna Change</li>
+			<li>Andromeda</li>
+			<li>Everyday</li>
+			<li>Mirror Forever</li>
+			<li>Wild Time</li>
+    </ul>
+  </section>
+
+	<hr>
+
+  <section>
+    <h2>Más información</h2>
+    <button onclick="document.getElementById('modal').showModal()">
+			Abrir información extra
+    </button>
+
+    <dialog id="modal">
+    <form method="dialog">
+      <p>
+				Titanic Rising fue aclamado universalmente como uno de los mejores
+				álbumes de 2019, estableciendo a Weyes Blood como una de las voces
+				más importantes del indie contemporáneo.
+      </p>
+      <button>Cerrar</button>
+    </form>
+    </dialog>
+  </section>
+
+	<hr>
+
+  </main>
+
+  <footer>
+  <a href="AP2.html">
+    <button>Anterior álbum...</button>
+  </a>
+
+  <progress value="100" max="100"></progress>
+
+  <h4>Marcelo Detlefsen - 24554</h4>
+  </footer>
+
 </body>
+
 </html>
