@@ -1,61 +1,132 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Koi no yokan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koi no yokan</title>
 </head>
+
 <body>
-    <header>
-        <h1>Koi no yokan</h1>
-        <h4>De: Deftones</h4>
-        <time datetime="2012-11-13">13 de Noviembre de 2012</time>
-        <hr>
-    </header>
 
-    <nav aria-label="breadcrumb">
-        <ul>
-            <li><a href="../index.html">Volver al índice</a></li>
-            <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
-            <li><a href="../Rock/R1.html">Rock</a></li>
-            <li><a href="../EDM/EDM1.html">EDM</a></li>
-            <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
-        </ul>
-        <hr>
-    </nav>
+  <header>
+    <h1>Koi no yokan</h1>
+    <h4>De: Deftones</h4>
+    <time datetime="2012-11-13">13 de Noviembre de 2012</time>
+  </header>
 
-    <figure>
-        <img src="../Images/deftones-koi-no-yokan-Cover-Art.jpg" alt="Koi no yokan Cover Art.">
-        <figcaption>Portada del album Koi no yokan.</figcaption>
-    </figure>
+	<hr>
 
-    <main>
-        <article>
-            <h2>Resumen del Album</h2>
-            <p>...</p>
-            <hr>
-        </article>
-        <summary>
-            <h2>¿Por qué me gusta tanto?</h2>
-            <p>...</p>
-            <hr>
-        </summary>
-        <section>
-            <h2>Mis Canciones Favoritas</h2>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <hr>
-        </section>
-    </main>
+  <nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="../index.html">Volver al índice</a></li>
+      <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
+      <li><a href="../Rock/R1.html">Rock</a></li>
+      <li><a href="../EDM/EDM1.html">EDM</a></li>
+      <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
+    </ul>
+    <hr>
+  </nav>
 
-    <footer>
-        <button><a href="M1.html">Regresar album...</a></button>
-        <progress value="66" max="100"></progress>
-        <button><a href="M3.html">Siguente album...</a></button>
-        <h4>Marcelo Detlefsen - 24554</h4>
-    </footer>
+	<hr>
+
+  <figure>
+    <img src="../Images/deftones-koi-no-yokan-Cover-Art.jpg" alt="Koi no yokan Cover Art.">
+    <figcaption>Portada del album Koi no yokan.</figcaption>
+  </figure>
+
+	<hr>
+
+  <main>
+
+  <article>
+    <h2>Resumen del Álbum</h2>
+    <p>
+			Koi no yokan es el séptimo álbum de estudio de Deftones, lanzado en 2012.
+			El álbum continúa la evolución de la banda hacia paisajes sonoros más
+			atmosféricos y experimentales, manteniendo la intensidad característica
+			del metal alternativo pero con capas de texturas shoegaze y ambient.
+    </p>
+  </article>
+
+  <details>
+    <summary>Dato curioso</summary>
+    <p>
+			"Koi no yokan" es una frase japonesa que se traduce como "el premonición
+			al conocer a alguien de que los dos se enamorarán", reflejando las
+			temáticas románticas del álbum.
+    </p>
+  </details>
+
+  <hr>
+
+  <aside>
+    <h2>¿Por qué me gusta tanto?</h2>
+    <p>
+			Con este álbum me pasó algo distinto, porque ya venía escuchando cosas más pesadas, pero nunca
+			había escuchado algo que lograra sonar tan fuerte y tan suave al mismo tiempo. <em>Koi No Yokan</em>
+			es simplemente hermoso, no hay otra forma de decirlo. <br> Lo que más me impactó fue darme cuenta de 
+			que tenía pequeñas cositas de <em>shoegaze</em> escondidas entre toda esa distorsión. Las capas de 
+			guitarras, la forma en que la voz de Chino Moreno flota sobre la instrumental, todo eso crea una atmósfera 
+			que no se siente agresiva aunque el sonido sea enorme. Es pesado, sí, pero nunca es brutal por el simple 
+			hecho de serlo. Canciones como <strong>Entombed</strong> o <strong>Tempest</strong> muestran perfectamente 
+			esa dualidad. Hay una intensidad constante, pero también una delicadeza muy marcada en las melodías. Es 
+			como si el álbum estuviera abrazándote mientras al mismo tiempo te está golpeando con un muro de sonido. <br> 
+			Este disco me ayudó a entender que la música pesada no tiene que ser fría ni distante. Puede ser emocional, 
+			puede ser envolvente, puede incluso ser tierna. Y eso fue algo que me voló la cabeza cuando lo entendí.
+		</p>
+  </aside>
+
+  <hr>
+
+  <section>
+    <h2>Mis Canciones Favoritas</h2>
+    <ul>
+			<li>Swerve City</li>
+			<li>Romantic Dreams</li>
+			<li>Entombed</li>
+			<li>Graphic Nature</li>
+			<li>Rosemary</li>
+    </ul>
+  </section>
+
+	<hr>
+
+  <section>
+    <h2>Más información</h2>
+    <button onclick="document.getElementById('modal').showModal()">
+    Abrir información extra
+    </button>
+
+    <dialog id="modal">
+    <form method="dialog">
+      <p>
+				Koi no yokan es considerado uno de los mejores trabajos de Deftones,
+				mostrando la madurez artística de la banda y su habilidad para crear
+				metal atmosférico único.
+      </p>
+      <button>Cerrar</button>
+    </form>
+    </dialog>
+  </section>
+
+  </main>
+
+	<hr>
+
+  <footer>
+  <a href="M1.html">
+    <button>Anterior álbum...</button>
+  </a>
+
+  <progress value="66" max="100"></progress>
+
+  <a href="M3.html">
+    <button>Siguiente álbum...</button>
+  </a>
+
+  <h4>Marcelo Detlefsen - 24554</h4>
+  </footer>
+
 </body>
+
 </html>

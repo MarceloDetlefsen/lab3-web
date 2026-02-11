@@ -1,60 +1,131 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rust in Peace</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rust in Peace</title>
 </head>
+
 <body>
-    <header>
-        <h1>Rust in Peace</h1>
-        <h4>De: Megadeth</h4>
-        <time datetime="1990-09-24">24 de Septiembre de 1990</time>
-        <hr>
-    </header>
 
-    <nav aria-label="breadcrumb">
-        <ul>
-            <li><a href="../index.html">Volver al índice</a></li>
-            <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
-            <li><a href="../Rock/R1.html">Rock</a></li>
-            <li><a href="../EDM/EDM1.html">EDM</a></li>
-            <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
-        </ul>
-        <hr>
-    </nav>
+  <header>
+    <h1>Rust in Peace</h1>
+    <h4>De: Megadeth</h4>
+    <time datetime="1990-09-24">24 de Septiembre de 1990</time>
+  </header>
 
-    <figure>
-        <img src="../Images/megadeth-rust-in-peace-Cover-Art.jpg" alt="Rust in Peace Cover Art.">
-        <figcaption>Portada del album Rust in Peace.</figcaption>
-    </figure>
+	<hr>
 
-    <main>
-        <article>
-            <h2>Resumen del Album</h2>
-            <p>...</p>
-            <hr>
-        </article>
-        <summary>
-            <h2>¿Por qué me gusta tanto?</h2>
-            <p>...</p>
-            <hr>
-        </summary>
-        <section>
-            <h2>Mis Canciones Favoritas</h2>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <hr>
-        </section>
-    </main>
+  <nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="../index.html">Volver al índice</a></li>
+      <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
+      <li><a href="../Rock/R1.html">Rock</a></li>
+      <li><a href="../EDM/EDM1.html">EDM</a></li>
+      <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
+    </ul>
+  </nav>
 
-    <footer>
-        <progress value="33" max="100"></progress>
-        <button><a href="M2.html">Siguente album...</a></button>
-        <h4>Marcelo Detlefsen - 24554</h4>
-    </footer>
+	<hr>
+
+  <figure>
+    <img src="../Images/megadeth-rust-in-peace-Cover-Art.jpg" alt="Rust in Peace Cover Art.">
+    <figcaption>Portada del album Rust in Peace.</figcaption>
+  </figure>
+
+	<hr>
+
+  <main>
+
+  <article>
+    <h2>Resumen del Álbum</h2>
+    <p>
+			Rust in Peace es el cuarto álbum de estudio de Megadeth, lanzado en 1990.
+			Es considerado una de las obras maestras del thrash metal, con riffs
+			técnicamente complejos, solos de guitarra virtuosos y letras que abordan
+			temas políticos y apocalípticos. La formación clásica de la banda brilla aquí.
+    </p>
+  </article>
+
+  <details>
+    <summary>Dato curioso</summary>
+    <p>
+			Este álbum marcó el debut del guitarrista Marty Friedman y el baterista
+			Nick Menza, formando lo que muchos consideran la alineación definitiva
+			de Megadeth.
+    </p>
+  </details>
+
+  <hr>
+
+  <aside>
+    <h2>¿Por qué me gusta tanto?</h2>
+    <p> 
+			Bueno, este álbum fue literalmente el que me hizo empezar a apreciar el <em>metal</em> de
+			verdad. Antes de escucharlo, el metal para mí era simplemente ruido rápido, guitarras veloces
+			y voces agresivas sin demasiado sentido. No terminaba de entender qué era lo que la gente veía
+			en el género, me parecía más técnico que emocional. Pero cuando llegué a este álbum, algo cambio 
+			completamente. <br> Este disco me pareció hermoso desde la primera escucha, y sí, uso esa palabra a 
+			propósito. Porque más allá de lo pesado o lo agresivo, lo que hace Megadeth acá es increíblemente elegante. 
+			Las guitarras son técnicas hasta un punto absurdo, pero nunca se sienten vacías; cada riff tiene intención, 
+			cada solo parece pensado al milímetro. Es un álbum que suena feroz pero a la vez extremadamente preciso, 
+			casi quirúrgico. Mi canción favorita sin duda es <strong>Lucretia</strong>. Hay algo en ese riff principal 
+			que me parece simplemente perfecto, es pegadizo pero complejo, y cuando entran los solos siento que todo 
+			encaja de una forma que es difícil de explicar. Es una canción que resume todo lo que hace grande al álbum: 
+			técnica, intensidad y melodía conviviendo sin estorbarse. <br> Gracias a este disco dejé de ver el metal como 
+			algo unidimensional. Empecé a fijarme mucho más en la ejecución, en la estructura de las canciones, en cómo la 
+			agresividad también puede ser belleza si está bien construida. Sin haber escuchado este álbum probablemente 
+			nunca me hubiera metido tan de lleno en el género.
+		</p>
+  </aside>
+
+  <hr>
+
+  <section>
+    <h2>Mis Canciones Favoritas</h2>
+    <ul>
+			<li>Holy Wars... The Punishment Due</li>
+			<li>Tornado of Souls</li>
+			<li>Hangar 18</li>
+			<li>Lucretia</li>
+			<li>Dawn Patrol</li>
+    </ul>
+  </section>
+
+	<hr>
+
+  <section>
+    <h2>Más información</h2>
+    <button onclick="document.getElementById('modal').showModal()">
+			Abrir información extra
+    </button>
+
+    <dialog id="modal">
+    <form method="dialog">
+      <p>
+				Rust in Peace es universalmente reconocido como uno de los mejores
+				álbumes de thrash metal jamás creados, junto a obras maestras de
+				Metallica y Slayer.
+      </p>
+      <button>Cerrar</button>
+    </form>
+    </dialog>
+  </section>
+
+  </main>
+
+	<hr>
+
+  <footer>
+  <progress value="33" max="100"></progress>
+
+  <a href="M2.html">
+    <button>Siguiente álbum...</button>
+  </a>
+
+  <h4>Marcelo Detlefsen - 24554</h4>
+  </footer>
+
 </body>
+
 </html>
