@@ -1,60 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Velocity : Design : Comfort </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velocity : Design : Comfort </title>
 </head>
+
 <body>
-    <header>
-        <h1>Velocity : Design : Comfort</h1>
-        <h4>De: Sweet Trip</h4>
-        <time datetime="2003-06-17">17 de Junio de 2003</time>
-        <hr>
-    </header>
 
-    <nav aria-label="breadcrumb">
-        <ul>
-            <li><a href="../index.html">Volver al índice</a></li>
-            <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
-            <li><a href="../Rock/R1.html">Rock</a></li>
-            <li><a href="../Metal/M1.html">Metal</a></li>
-            <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
-        </ul>
-        <hr>
-    </nav>
+  <header>
+    <h1>Velocity : Design : Comfort</h1>
+    <h4>De: Sweet Trip</h4>
+    <time datetime="2003-06-17">17 de Junio de 2003</time>
+  </header>
 
-    <figure>
-        <img src="../Images/sweet-trip-velocity-design-comfort-Cover-Art.png" alt="Velocity : Design : Comfort Cover Art.">
-        <figcaption>Portada del album Velocity : Design : Comfort.</figcaption>
-    </figure>
+	<hr>
 
-    <main>
-        <article>
-            <h2>Resumen del Album</h2>
-            <p>...</p>
-            <hr>
-        </article>
-        <summary>
-            <h2>¿Por qué me gusta tanto?</h2>
-            <p>...</p>
-            <hr>
-        </summary>
-        <section>
-            <h2>Mis Canciones Favoritas</h2>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <hr>
-        </section>
-    </main>
+  <nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="../index.html">Volver al índice</a></li>
+      <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
+      <li><a href="../Rock/R1.html">Rock</a></li>
+      <li><a href="../Metal/M1.html">Metal</a></li>
+      <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
+    </ul>
+  </nav>
 
-    <footer>
-        <progress value="33" max="100"></progress>
-        <button><a href="EDM2.html">Siguente album...</a></button>
-        <h4>Marcelo Detlefsen - 24554</h4>
-    </footer>
+	<hr>
+
+  <figure>
+    <img src="../Images/sweet-trip-velocity-design-comfort-Cover-Art.png" alt="Velocity : Design : Comfort Cover Art.">
+    <figcaption>Portada del album Velocity : Design : Comfort.</figcaption>
+  </figure>
+
+  <main>
+
+  <article>
+    <h2>Resumen del Álbum</h2>
+    <p>
+			Velocity : Design : Comfort es el segundo álbum de estudio de Sweet Trip,
+			lanzado en 2003. Esta obra fusiona shoegaze, IDM y glitch pop de manera
+			innovadora, creando paisajes sonoros densos y melódicos que son tanto
+			caóticos como hermosos.
+    </p>
+  </article>
+
+  <details>
+    <summary>Dato curioso</summary>
+    <p>
+			El álbum fue prácticamente ignorado en su lanzamiento, pero ganó estatus
+			de culto años después gracias al internet, convirtiéndose en un favorito
+			de la comunidad de música experimental.
+    </p>
+  </details>
+
+  <hr>
+
+  <aside>
+    <h2>¿Por qué me gusta tanto?</h2>
+    <p>
+			Bueno, con este álbum pasó algo bastante particular, porque no fue amor inmediato, 
+			pero sí fue de esos discos que se te quedan dando vueltas en la cabeza sin que te des cuenta. 
+			Yo ya venía escuchando música electrónica y cosas más experimentales, pero este álbum me abrió 
+			completamente la cabeza en cuanto a cómo se pueden mezclar sonidos tan opuestos y aun así funcionar perfecto. 
+			<br>Lo que más me impactó desde el principio fue esa combinación entre lo electrónico, lo glitchy, y a la
+			vez lo melódico y casi pop, pero sin perder nunca esa sensación de estar escuchando algo raro, distinto.
+			Este álbum tiene una energía muy especial, es como caótico pero controlado, y cada canción parece irse por
+			todos lados sin terminar de desarmarse nunca. <br> Con el tiempo me di cuenta de que este disco fue clave
+			para que empezara a disfrutar mucho más los álbumes que no siguen estructuras tradicionales. 
+			Canciones como Dsco o Fruitcake and Cookies me hicieron apreciar muchísimo más los detalles, los pequeños
+			sonidos, los cambios casi imperceptibles. Definitivamente es un álbum que mientras más lo escuchás, más
+			te devuelve, y hoy en día lo considero una obra increíblemente adelantada a su tiempo.
+    </p>
+  </aside>
+
+  <hr>
+
+  <section>
+    <h2>Mis Canciones Favoritas</h2>
+    <ul>
+			<li>Dsco</li>
+			<li>Velocity</li>
+			<li>Pro : Lov : Ad</li>
+			<li>Chocolate Matter</li>
+			<li>Design : 2 : 3</li>
+    </ul>
+  </section>
+
+	<hr>
+
+  <section>
+    <h2>Más información</h2>
+    <button onclick="document.getElementById('modal').showModal()">
+			Abrir información extra
+    </button>
+
+    <dialog id="modal">
+    <form method="dialog">
+      <p>
+				Velocity : Design : Comfort es considerado una obra maestra oculta
+				de la música electrónica experimental, influyendo a toda una nueva
+				generación de productores y artistas.
+      </p>
+      <button>Cerrar</button>
+    </form>
+    </dialog>
+  </section>
+
+  </main>
+
+	<hr>
+
+  <footer>
+  <progress value="33" max="100"></progress>
+
+  <a href="EDM2.html">
+    <button>Siguiente álbum...</button>
+  </a>
+
+  <h4>Marcelo Detlefsen - 24554</h4>
+  </footer>
+	
 </body>
+
 </html>

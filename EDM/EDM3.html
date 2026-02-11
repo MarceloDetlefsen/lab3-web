@@ -1,60 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This is Happening  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This is Happening  </title>
 </head>
+
 <body>
-    <header>
-        <h1>This is Happening</h1>
-        <h4>De: LCD Soundsystem</h4>
-        <time datetime="2010-05-18">18 de Mayo de 2010</time>
-        <hr>
-    </header>
 
-    <nav aria-label="breadcrumb">
-        <ul>
-            <li><a href="../index.html">Volver al índice</a></li>
-            <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
-            <li><a href="../Rock/R1.html">Rock</a></li>
-            <li><a href="../Metal/M1.html">Metal</a></li>
-            <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
-        </ul>
-        <hr>
-    </nav>
+  <header>
+    <h1>This is Happening</h1>
+    <h4>De: LCD Soundsystem</h4>
+    <time datetime="2010-05-18">18 de Mayo de 2010</time>
+  </header>
 
-    <figure>
-        <img src="../Images/lcd-soundsystem-this-is-happening-Cover-Art.jpg" alt="This is Happening Cover Art.">
-        <figcaption>Portada del album This is Happening.</figcaption>
-    </figure>
+	<hr>
 
-    <main>
-        <article>
-            <h2>Resumen del Album</h2>
-            <p>...</p>
-            <hr>
-        </article>
-        <summary>
-            <h2>¿Por qué me gusta tanto?</h2>
-            <p>...</p>
-            <hr>
-        </summary>
-        <section>
-            <h2>Mis Canciones Favoritas</h2>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <hr>
-        </section>
-    </main>
+  <nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="../index.html">Volver al índice</a></li>
+      <li><a href="../HipHop/HP1.html">Hip Hop</a></li>
+      <li><a href="../Rock/R1.html">Rock</a></li>
+      <li><a href="../Metal/M1.html">Metal</a></li>
+      <li><a href="../ArtPop/AP1.html">Art Pop</a></li>
+    </ul>
+  </nav>
 
-    <footer>
-        <button><a href="EDM2.html">Regresar album...</a></button>
-        <progress value="100" max="100"></progress>
-        <h4>Marcelo Detlefsen - 24554</h4>
-    </footer>
+	<hr>
+
+  <figure>
+    <img src="../Images/lcd-soundsystem-this-is-happening-Cover-Art.jpg" alt="This is Happening Cover Art.">
+    <figcaption>Portada del album This is Happening.</figcaption>
+  </figure>
+
+  <main>
+
+  <article>
+    <h2>Resumen del Álbum</h2>
+    <p>
+			This is Happening es el tercer álbum de estudio de LCD Soundsystem,
+			lanzado en 2010. James Murphy logró crear una obra que combina dance-punk,
+			new wave y música electrónica con letras introspectivas sobre el envejecimiento
+			y la nostalgia. Es tanto para la pista de baile como para la reflexión.
+    </p>
+  </article>
+
+  <details>
+    <summary>Dato curioso</summary>
+    <p>
+			LCD Soundsystem se separó después de este álbum con una serie de conciertos
+			de despedida épicos en el Madison Square Garden, solo para reunirse años
+			después en 2015.
+    </p>
+  </details>
+
+  <hr>
+
+  <aside>
+    <h2>¿Por qué me gusta tanto?</h2>
+    <p>
+			Este álbum llegó en un momento donde yo ya estaba bastante metido en la música,
+			pero aun así logró sorprenderme muchísimo. Ya conocía un poco a LCD Soundsystem, 
+			pero acá fue donde realmente entendí qué era lo que los hacía tan especiales.
+			Este disco tiene una capacidad increíble para ser bailable, emocional y reflexivo
+			al mismo tiempo, algo que no es nada fácil de lograr. <br> Canciones como Dance Yrself
+			Clean son directamente legendarias, no solo por ese inicio engañosamente tranquilo, sino por
+			cómo va construyendo todo hasta explotar de una forma brutal. Pero lo que más valoro de este
+			álbum es su cierre con Home, que me parece una de las mejores canciones para cerrar un disco
+			que escuché en mi vida. Te deja con una sensación muy rara, como de final, pero también de
+			tranquilidad. <br> Este álbum me hizo apreciar mucho más la música que mezcla lo electrónico
+			con lo humano, lo imperfecto. Tiene letras simples pero muy honestas, y una producción que
+			nunca se siente fría. Es uno de esos discos que puedo escuchar en cualquier momento y siempre
+			me genera algo distinto.
+    </p>
+  </aside>
+
+  <hr>
+
+  <section>
+    <h2>Mis Canciones Favoritas</h2>
+    <ul>
+			<li>Dance Yrself Clean</li>
+      <li>One Touch</li>
+			<li>All I Want</li>
+      <li>I can Change</li>
+			<li>Home</li>
+    </ul>
+  </section>
+
+	<hr>
+
+  <section>
+    <h2>Más información</h2>
+    <button onclick="document.getElementById('modal').showModal()">
+			Abrir información extra
+    </button>
+
+    <dialog id="modal">
+    <form method="dialog">
+      <p>
+				This is Happening es ampliamente considerado como una de las mejores
+				obras de LCD Soundsystem y uno de los mejores álbumes de la década de
+				2010, perfeccionando el sonido dance-punk.
+      </p>
+      <button>Cerrar</button>
+    </form>
+    </dialog>
+  </section>
+
+  </main>
+
+	<hr>
+
+  <footer>
+  <a href="EDM2.html">
+    <button>Anterior álbum...</button>
+  </a>
+
+  <progress value="100" max="100"></progress>
+
+  <h4>Marcelo Detlefsen - 24554</h4>
+  </footer>
+
 </body>
+
 </html>
