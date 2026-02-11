@@ -81,7 +81,6 @@ lab3-web/
 ## 🛠️ Tecnologías Utilizadas
 
 - **HTML5**: Estructura y contenido semántico
-- **JavaScript Vanilla**: Funcionalidad del modal (mínima)
 - Sin frameworks ni librerías externas
 
 ## 🚀 Cómo Usar
@@ -91,14 +90,6 @@ lab3-web/
 3. Navega a través de los diferentes géneros
 4. Explora cada álbum usando los botones de navegación
 5. Haz clic en "Abrir información extra" para más detalles
-
-## 📱 Compatibilidad
-
-- ✅ Google Chrome
-- ✅ Mozilla Firefox
-- ✅ Safari
-- ✅ Microsoft Edge
-- ✅ Navegadores móviles modernos
 
 ## 🎯 Propósito del Proyecto
 
@@ -111,13 +102,4 @@ Este proyecto fue creado como parte de un laboratorio de desarrollo web con los 
 
 ## 👤 Autor
 
-**Marcelo Detlefsen**  
-Estudiante ID: 24554
-
-## 📄 Licencia
-
-Este proyecto es de código abierto y está disponible para uso educativo.
-
----
-
-*"La música es el lenguaje universal de la humanidad"* - Henry Wadsworth Longfellow
+**Marcelo Detlefsen - 24554**  
